@@ -1,0 +1,18 @@
+{
+  "train_path": "/mnt/c/Users/Candy/Desktop/大数据工程设计/MoleOOD/data/ec50/lbap_core_ec50_scaffold_brics.json",
+  "val_path": "/mnt/c/Users/Candy/Desktop/大数据工程设计/MoleOOD/data/ec50/lbap_core_ec50_scaffold_brics.json",
+  "test_path": "/mnt/c/Users/Candy/Desktop/大数据工程设计/MoleOOD/data/ec50/lbap_core_ec50_scaffold_brics.json",
+  "emb_dim": 128,
+  "num_class": 2,
+  "dropout": 0.1,
+  "batch_size": 128,
+  "lr": 0.001,
+  "device": 0,
+  "seed": 2022,
+  "num_domain": 20,
+  "epoch_main": 50,
+  "epoch_ast": 20,
+  "lambda_loss": 1.0,
+  "dist": "uniform",
+  "output_dir": null
+}

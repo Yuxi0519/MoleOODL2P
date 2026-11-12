@@ -1,0 +1,536 @@
+[
+  {
+    "scenario": "abrupt",
+    "method": "frozen",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.7099840936050901,
+    "auc_change": 0.0,
+    "final_balanced_accuracy": 0.6538498867680362,
+    "seen_forgetting": 0.0,
+    "prequential_auc": 0.8308074115124209,
+    "time_average_eval_auc": 0.7099840936050901,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": null,
+    "resources": {
+      "total_parameters": 634498,
+      "trainable_parameters": 0,
+      "full_checkpoint_bytes": 2616454,
+      "elapsed_seconds": 14.176034870999501,
+      "optimizer_tensor_bytes": 0
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "abrupt",
+    "method": "finetune",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.5232482745605522,
+    "auc_change": -0.18673581904453784,
+    "final_balanced_accuracy": 0.5999322630216758,
+    "seen_forgetting": 0.10015933354901324,
+    "prequential_auc": 0.7715466351829988,
+    "time_average_eval_auc": 0.5627643427154104,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": null,
+    "resources": {
+      "total_parameters": 634498,
+      "trainable_parameters": 601218,
+      "full_checkpoint_bytes": 7493414,
+      "elapsed_seconds": 17.432510197000738,
+      "optimizer_tensor_bytes": 4810064
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "abrupt",
+    "method": "fixed",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.7077390003235199,
+    "auc_change": -0.0022450932815701874,
+    "final_balanced_accuracy": 0.6377911679068262,
+    "seen_forgetting": 0.0010637064596139556,
+    "prequential_auc": 0.8295785846806255,
+    "time_average_eval_auc": 0.7087429095222689,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": {
+      "active": 6,
+      "capacity": 6,
+      "source_distance_threshold": 0.07478516548871994,
+      "reuse_samples": 1073,
+      "novel_batches": 0,
+      "novel_samples": 54,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 433,
+          "last_used": 19,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 134,
+          "last_used": 14,
+          "protected_source": true
+        },
+        {
+          "slot": 2,
+          "generation": 0,
+          "usage": 70,
+          "last_used": 19,
+          "protected_source": true
+        },
+        {
+          "slot": 3,
+          "generation": 0,
+          "usage": 254,
+          "last_used": 19,
+          "protected_source": true
+        },
+        {
+          "slot": 4,
+          "generation": 0,
+          "usage": 219,
+          "last_used": 14,
+          "protected_source": true
+        },
+        {
+          "slot": 5,
+          "generation": 0,
+          "usage": 45,
+          "last_used": 14,
+          "protected_source": true
+        }
+      ]
+    },
+    "resources": {
+      "total_parameters": 635010,
+      "trainable_parameters": 768,
+      "full_checkpoint_bytes": 2710392,
+      "elapsed_seconds": 18.634218269000485,
+      "optimizer_tensor_bytes": 6168,
+      "active_prompt_parameters": 768,
+      "reserved_prompt_parameters": 768,
+      "memory_tensor_bytes": 75016,
+      "memory_file_bytes": 82065
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "abrupt",
+    "method": "dynamic",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.70293028146231,
+    "auc_change": -0.007053812142780114,
+    "final_balanced_accuracy": 0.6464284751428879,
+    "seen_forgetting": 0.002612692763938329,
+    "prequential_auc": 0.8279401489048985,
+    "time_average_eval_auc": 0.7042626172759625,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 1091,
+      "novel_batches": 0,
+      "novel_samples": 55,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 183,
+          "last_used": 14,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 972,
+          "last_used": 19,
+          "protected_source": true
+        }
+      ]
+    },
+    "resources": {
+      "total_parameters": 635010,
+      "trainable_parameters": 768,
+      "full_checkpoint_bytes": 2701968,
+      "elapsed_seconds": 17.25600633399972,
+      "optimizer_tensor_bytes": 2056,
+      "active_prompt_parameters": 256,
+      "reserved_prompt_parameters": 768,
+      "memory_tensor_bytes": 75016,
+      "memory_file_bytes": 82065
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "gradual",
+    "method": "frozen",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.7099840936050901,
+    "auc_change": 0.0,
+    "final_balanced_accuracy": 0.6538498867680362,
+    "seen_forgetting": 5.551115123125783e-17,
+    "prequential_auc": 0.8308074115124208,
+    "time_average_eval_auc": 0.7099840936050902,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": null,
+    "resources": {
+      "total_parameters": 634498,
+      "trainable_parameters": 0,
+      "full_checkpoint_bytes": 2619398,
+      "elapsed_seconds": 23.462405799999033,
+      "optimizer_tensor_bytes": 0
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "gradual",
+    "method": "finetune",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.564448802976383,
+    "auc_change": -0.14553529062870707,
+    "final_balanced_accuracy": 0.5977121077321255,
+    "seen_forgetting": 0.08597312088860132,
+    "prequential_auc": 0.7708599378358191,
+    "time_average_eval_auc": 0.5596733551954354,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": null,
+    "resources": {
+      "total_parameters": 634498,
+      "trainable_parameters": 601218,
+      "full_checkpoint_bytes": 7496422,
+      "elapsed_seconds": 25.79963387999942,
+      "optimizer_tensor_bytes": 4810064
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "gradual",
+    "method": "fixed",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.7082242801682304,
+    "auc_change": -0.001759813436859714,
+    "final_balanced_accuracy": 0.6444748867680363,
+    "seen_forgetting": 0.001710746252561235,
+    "prequential_auc": 0.8313133990313953,
+    "time_average_eval_auc": 0.7091453927825653,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": {
+      "active": 6,
+      "capacity": 6,
+      "source_distance_threshold": 0.07478516548871994,
+      "reuse_samples": 1088,
+      "novel_batches": 0,
+      "novel_samples": 54,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 433,
+          "last_used": 22,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 134,
+          "last_used": 20,
+          "protected_source": true
+        },
+        {
+          "slot": 2,
+          "generation": 0,
+          "usage": 70,
+          "last_used": 24,
+          "protected_source": true
+        },
+        {
+          "slot": 3,
+          "generation": 0,
+          "usage": 254,
+          "last_used": 24,
+          "protected_source": true
+        },
+        {
+          "slot": 4,
+          "generation": 0,
+          "usage": 219,
+          "last_used": 20,
+          "protected_source": true
+        },
+        {
+          "slot": 5,
+          "generation": 0,
+          "usage": 45,
+          "last_used": 20,
+          "protected_source": true
+        }
+      ]
+    },
+    "resources": {
+      "total_parameters": 635010,
+      "trainable_parameters": 768,
+      "full_checkpoint_bytes": 2715448,
+      "elapsed_seconds": 26.57978618800098,
+      "optimizer_tensor_bytes": 6168,
+      "active_prompt_parameters": 768,
+      "reserved_prompt_parameters": 768,
+      "memory_tensor_bytes": 75016,
+      "memory_file_bytes": 82065
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "gradual",
+    "method": "dynamic",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.7044106545885906,
+    "auc_change": -0.005573439016499426,
+    "final_balanced_accuracy": 0.6386808476221287,
+    "seen_forgetting": 0.003421492505122359,
+    "prequential_auc": 0.8308917427655832,
+    "time_average_eval_auc": 0.7068963657931631,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 1091,
+      "novel_batches": 0,
+      "novel_samples": 55,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 183,
+          "last_used": 20,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 972,
+          "last_used": 24,
+          "protected_source": true
+        }
+      ]
+    },
+    "resources": {
+      "total_parameters": 635010,
+      "trainable_parameters": 768,
+      "full_checkpoint_bytes": 2706000,
+      "elapsed_seconds": 27.074635019997913,
+      "optimizer_tensor_bytes": 2056,
+      "active_prompt_parameters": 256,
+      "reserved_prompt_parameters": 768,
+      "memory_tensor_bytes": 75016,
+      "memory_file_bytes": 82065
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "repeat",
+    "method": "frozen",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.7099840936050901,
+    "auc_change": 0.0,
+    "final_balanced_accuracy": 0.6538498867680362,
+    "seen_forgetting": 0.0,
+    "prequential_auc": 0.8308074115124209,
+    "time_average_eval_auc": 0.7099840936050902,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": null,
+    "resources": {
+      "total_parameters": 634498,
+      "trainable_parameters": 0,
+      "full_checkpoint_bytes": 2616966,
+      "elapsed_seconds": 17.751508837000983,
+      "optimizer_tensor_bytes": 0
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "repeat",
+    "method": "finetune",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.6048842068370538,
+    "auc_change": -0.10509988676803628,
+    "final_balanced_accuracy": 0.5819351207807614,
+    "seen_forgetting": 0.06529238110643804,
+    "prequential_auc": 0.8140616340987399,
+    "time_average_eval_auc": 0.6164048626837774,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": null,
+    "resources": {
+      "total_parameters": 634498,
+      "trainable_parameters": 601218,
+      "full_checkpoint_bytes": 7493926,
+      "elapsed_seconds": 18.794210433000444,
+      "optimizer_tensor_bytes": 4810064
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "repeat",
+    "method": "fixed",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.7095919605305727,
+    "auc_change": -0.00039213307451735346,
+    "final_balanced_accuracy": 0.6502911679068262,
+    "seen_forgetting": 0.0,
+    "prequential_auc": 0.830711032937378,
+    "time_average_eval_auc": 0.7088133784463856,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": {
+      "active": 6,
+      "capacity": 6,
+      "source_distance_threshold": 0.07478516548871994,
+      "reuse_samples": 1076,
+      "novel_batches": 0,
+      "novel_samples": 54,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 433,
+          "last_used": 18,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 134,
+          "last_used": 17,
+          "protected_source": true
+        },
+        {
+          "slot": 2,
+          "generation": 0,
+          "usage": 70,
+          "last_used": 20,
+          "protected_source": true
+        },
+        {
+          "slot": 3,
+          "generation": 0,
+          "usage": 254,
+          "last_used": 20,
+          "protected_source": true
+        },
+        {
+          "slot": 4,
+          "generation": 0,
+          "usage": 219,
+          "last_used": 17,
+          "protected_source": true
+        },
+        {
+          "slot": 5,
+          "generation": 0,
+          "usage": 45,
+          "last_used": 17,
+          "protected_source": true
+        }
+      ]
+    },
+    "resources": {
+      "total_parameters": 635010,
+      "trainable_parameters": 768,
+      "full_checkpoint_bytes": 2711224,
+      "elapsed_seconds": 18.952768819000994,
+      "optimizer_tensor_bytes": 6168,
+      "active_prompt_parameters": 768,
+      "reserved_prompt_parameters": 768,
+      "memory_tensor_bytes": 75016,
+      "memory_file_bytes": 82065
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  },
+  {
+    "scenario": "repeat",
+    "method": "dynamic",
+    "seed": 42,
+    "initial_auc": 0.7099840936050901,
+    "final_auc": 0.703832227973687,
+    "auc_change": -0.0061518656314030196,
+    "final_balanced_accuracy": 0.6315411679068262,
+    "seen_forgetting": 0.0021960260972717083,
+    "prequential_auc": 0.8292051177023347,
+    "time_average_eval_auc": 0.7057750098853303,
+    "allocations": 0,
+    "replacements": 0,
+    "capacity_deferrals": 0,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 1091,
+      "novel_batches": 0,
+      "novel_samples": 55,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 183,
+          "last_used": 17,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 972,
+          "last_used": 20,
+          "protected_source": true
+        }
+      ]
+    },
+    "resources": {
+      "total_parameters": 635010,
+      "trainable_parameters": 768,
+      "full_checkpoint_bytes": 2702608,
+      "elapsed_seconds": 18.905462789000012,
+      "optimizer_tensor_bytes": 2056,
+      "active_prompt_parameters": 256,
+      "reserved_prompt_parameters": 768,
+      "memory_tensor_bytes": 75016,
+      "memory_file_bytes": 82065
+    },
+    "note": "Fixed protocol development experiment; no automatic performance claim"
+  }
+]

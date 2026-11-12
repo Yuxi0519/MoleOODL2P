@@ -1,0 +1,36 @@
+{
+  "train_path": "/mnt/c/Users/Candy/Desktop/大数据工程设计/MoleOOD/data/continual_seed42/source.json",
+  "val_path": "/mnt/c/Users/Candy/Desktop/大数据工程设计/MoleOOD/data/continual_seed42/source.json",
+  "test_path": "/mnt/c/Users/Candy/Desktop/大数据工程设计/MoleOOD/data/continual_seed42/source.json",
+  "emb_dim": 128,
+  "num_class": 2,
+  "dropout": 0.1,
+  "batch_size": 128,
+  "lr": 0.001,
+  "device": 0,
+  "seed": 42,
+  "num_domain": 20,
+  "epoch_main": 50,
+  "epoch_ast": 20,
+  "lambda_loss": 1.0,
+  "dist": "uniform",
+  "output_dir": "/mnt/c/Users/Candy/Desktop/大数据工程设计/MoleOOD/log/cl_source_seed42",
+  "source_head_preparation": {
+    "initial_checkpoint_sha256": "144690f019a236ee8c3952ae2f83bb2aff57b44ac255e3c7a05c0e59e6c94377",
+    "source_sha256": "cc0dc774ac8a319531c270d0f43eaec25fdb85f7281757379e32c721d8126af4",
+    "validation_split": "iid_val",
+    "selection_rule": "balanced_accuracy_then_auc_then_loss",
+    "selected_epoch": 23,
+    "settings": {
+      "checkpoint": "log/cl_source_seed42/best_model.pth",
+      "source": "data/continual_seed42/source.json",
+      "output": "log/cl_source_head_prepared_seed42",
+      "epochs": 30,
+      "lr": 0.001,
+      "batch_size": 64,
+      "seed": 42,
+      "device": "cuda:0",
+      "cpu_threads": 2
+    }
+  }
+}

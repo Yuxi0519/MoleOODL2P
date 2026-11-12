@@ -1,0 +1,1181 @@
+[
+  {
+    "episode": 0,
+    "position": "initial",
+    "samples": 0,
+    "batches": 0,
+    "seen_environments": [],
+    "metrics": {
+      "0": {
+        "auc": 0.7483015205435134,
+        "accuracy": 0.9417808219178082,
+        "balanced_accuracy": 0.7076997735360725,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            11,
+            270
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9608540925266904,
+        "predicted_positive_fraction": 0.9452054794520548,
+        "mean_positive_probability": 0.837916709380607,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6716666666666667,
+        "accuracy": 0.6,
+        "balanced_accuracy": 0.6,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            32,
+            48
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.6,
+        "predicted_positive_fraction": 0.5684210526315789,
+        "mean_positive_probability": 0.49302558506177246,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7099840936050901,
+      "mean_balanced_accuracy": 0.6538498867680362,
+      "seen_mean_auc": null,
+      "seen_forgetting": null
+    },
+    "training_loss_since_previous_evaluation": null,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 0,
+      "novel_batches": 0,
+      "novel_samples": 0,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 0,
+          "last_used": -1,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 0,
+          "last_used": -1,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 1,
+    "position": "episode_end",
+    "samples": 145,
+    "batches": 3,
+    "seen_environments": [
+      "0"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7473309608540926,
+        "accuracy": 0.9452054794520548,
+        "balanced_accuracy": 0.7094791329666774,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            271
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9644128113879004,
+        "predicted_positive_fraction": 0.9486301369863014,
+        "mean_positive_probability": 0.8441621560144098,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6733333333333335,
+        "accuracy": 0.6210526315789474,
+        "balanced_accuracy": 0.6125,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            30,
+            50
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.625,
+        "predicted_positive_fraction": 0.5894736842105263,
+        "mean_positive_probability": 0.4977814168853097,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.710332147093713,
+      "mean_balanced_accuracy": 0.6609895664833387,
+      "seen_mean_auc": 0.7473309608540926,
+      "seen_forgetting": 0.0
+    },
+    "training_loss_since_previous_evaluation": 0.40443582370363435,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 81,
+      "novel_batches": 0,
+      "novel_samples": 1,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 23,
+          "last_used": 3,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 122,
+          "last_used": 3,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 2,
+    "position": "interval",
+    "samples": 273,
+    "batches": 5,
+    "seen_environments": [
+      "0"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7453898414752508,
+        "accuracy": 0.9452054794520548,
+        "balanced_accuracy": 0.7094791329666774,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            271
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9644128113879004,
+        "predicted_positive_fraction": 0.9486301369863014,
+        "mean_positive_probability": 0.8440357367061588,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6725000000000001,
+        "accuracy": 0.6210526315789474,
+        "balanced_accuracy": 0.6125,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            30,
+            50
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.625,
+        "predicted_positive_fraction": 0.5894736842105263,
+        "mean_positive_probability": 0.4965357413821805,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7089449207376255,
+      "mean_balanced_accuracy": 0.6609895664833387,
+      "seen_mean_auc": 0.7453898414752508,
+      "seen_forgetting": 0.0019411193788417824
+    },
+    "training_loss_since_previous_evaluation": 0.42246896773576736,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 209,
+      "novel_batches": 0,
+      "novel_samples": 1,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 46,
+          "last_used": 5,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 227,
+          "last_used": 5,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 2,
+    "position": "episode_end",
+    "samples": 290,
+    "batches": 6,
+    "seen_environments": [
+      "0"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7453898414752507,
+        "accuracy": 0.9452054794520548,
+        "balanced_accuracy": 0.7094791329666774,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            271
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9644128113879004,
+        "predicted_positive_fraction": 0.9486301369863014,
+        "mean_positive_probability": 0.8444667340651767,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6725000000000001,
+        "accuracy": 0.6210526315789474,
+        "balanced_accuracy": 0.6125,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            30,
+            50
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.625,
+        "predicted_positive_fraction": 0.5894736842105263,
+        "mean_positive_probability": 0.4965258540242518,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7089449207376254,
+      "mean_balanced_accuracy": 0.6609895664833387,
+      "seen_mean_auc": 0.7453898414752507,
+      "seen_forgetting": 0.0019411193788418935
+    },
+    "training_loss_since_previous_evaluation": 0.23620598018169403,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 226,
+      "novel_batches": 0,
+      "novel_samples": 1,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 48,
+          "last_used": 6,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 242,
+          "last_used": 6,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 3,
+    "position": "episode_end",
+    "samples": 435,
+    "batches": 9,
+    "seen_environments": [
+      "0"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7450663215787771,
+        "accuracy": 0.9417808219178082,
+        "balanced_accuracy": 0.7076997735360725,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            11,
+            270
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9608540925266904,
+        "predicted_positive_fraction": 0.9452054794520548,
+        "mean_positive_probability": 0.8429898202980626,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6708333333333334,
+        "accuracy": 0.6105263157894737,
+        "balanced_accuracy": 0.60625,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            31,
+            49
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.6125,
+        "predicted_positive_fraction": 0.5789473684210527,
+        "mean_positive_probability": 0.4933023379098526,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7079498274560552,
+      "mean_balanced_accuracy": 0.6569748867680363,
+      "seen_mean_auc": 0.7450663215787771,
+      "seen_forgetting": 0.0022646392753155054
+    },
+    "training_loss_since_previous_evaluation": 0.5412529159722657,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 371,
+      "novel_batches": 0,
+      "novel_samples": 1,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 77,
+          "last_used": 9,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 358,
+          "last_used": 9,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 4,
+    "position": "interval",
+    "samples": 499,
+    "batches": 10,
+    "seen_environments": [
+      "0"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7450663215787771,
+        "accuracy": 0.9417808219178082,
+        "balanced_accuracy": 0.7076997735360725,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            11,
+            270
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9608540925266904,
+        "predicted_positive_fraction": 0.9452054794520548,
+        "mean_positive_probability": 0.8425266155845499,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6708333333333334,
+        "accuracy": 0.6105263157894737,
+        "balanced_accuracy": 0.60625,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            31,
+            49
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.6125,
+        "predicted_positive_fraction": 0.5789473684210527,
+        "mean_positive_probability": 0.4928885851294341,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7079498274560552,
+      "mean_balanced_accuracy": 0.6569748867680363,
+      "seen_mean_auc": 0.7450663215787771,
+      "seen_forgetting": 0.0022646392753155054
+    },
+    "training_loss_since_previous_evaluation": 0.746825098991394,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 435,
+      "novel_batches": 0,
+      "novel_samples": 1,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 96,
+          "last_used": 10,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 403,
+          "last_used": 10,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 4,
+    "position": "episode_end",
+    "samples": 579,
+    "batches": 12,
+    "seen_environments": [
+      "0"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7437722419928825,
+        "accuracy": 0.9417808219178082,
+        "balanced_accuracy": 0.7076997735360725,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            11,
+            270
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9608540925266904,
+        "predicted_positive_fraction": 0.9452054794520548,
+        "mean_positive_probability": 0.8403800330188584,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.67,
+        "accuracy": 0.6105263157894737,
+        "balanced_accuracy": 0.60625,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            31,
+            49
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.6125,
+        "predicted_positive_fraction": 0.5789473684210527,
+        "mean_positive_probability": 0.4908159460762124,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7068861209964412,
+      "mean_balanced_accuracy": 0.6569748867680363,
+      "seen_mean_auc": 0.7437722419928825,
+      "seen_forgetting": 0.003558718861210064
+    },
+    "training_loss_since_previous_evaluation": 0.9792376041412354,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 515,
+      "novel_batches": 0,
+      "novel_samples": 1,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 123,
+          "last_used": 12,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 456,
+          "last_used": 12,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 5,
+    "position": "interval",
+    "samples": 723,
+    "batches": 15,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7431252021999353,
+        "accuracy": 0.9417808219178082,
+        "balanced_accuracy": 0.7076997735360725,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            11,
+            270
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9608540925266904,
+        "predicted_positive_fraction": 0.9452054794520548,
+        "mean_positive_probability": 0.8363942240607248,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6683333333333333,
+        "accuracy": 0.5894736842105263,
+        "balanced_accuracy": 0.59375,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            33,
+            47
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.5875,
+        "predicted_positive_fraction": 0.5578947368421052,
+        "mean_positive_probability": 0.4868342418664772,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7057292677666342,
+      "mean_balanced_accuracy": 0.6507248867680362,
+      "seen_mean_auc": 0.7057292677666342,
+      "seen_forgetting": 0.002102879327078644
+    },
+    "training_loss_since_previous_evaluation": 0.6756931444009145,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 659,
+      "novel_batches": 0,
+      "novel_samples": 7,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 152,
+          "last_used": 15,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 571,
+          "last_used": 15,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 6,
+    "position": "episode_end",
+    "samples": 867,
+    "batches": 18,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7431252021999353,
+        "accuracy": 0.9417808219178082,
+        "balanced_accuracy": 0.7076997735360725,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            11,
+            270
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9608540925266904,
+        "predicted_positive_fraction": 0.9452054794520548,
+        "mean_positive_probability": 0.8329659790336473,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6683333333333333,
+        "accuracy": 0.5789473684210527,
+        "balanced_accuracy": 0.5874999999999999,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            34,
+            46
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.575,
+        "predicted_positive_fraction": 0.5473684210526316,
+        "mean_positive_probability": 0.4834262438081695,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7057292677666342,
+      "mean_balanced_accuracy": 0.6475998867680361,
+      "seen_mean_auc": 0.7057292677666342,
+      "seen_forgetting": 0.002102879327078644
+    },
+    "training_loss_since_previous_evaluation": 0.5478613509072198,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 803,
+      "novel_batches": 0,
+      "novel_samples": 14,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 172,
+          "last_used": 18,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 695,
+          "last_used": 18,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 7,
+    "position": "interval",
+    "samples": 995,
+    "batches": 20,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7421546425105144,
+        "accuracy": 0.9383561643835616,
+        "balanced_accuracy": 0.7059204141054675,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            12,
+            269
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9572953736654805,
+        "predicted_positive_fraction": 0.9417808219178082,
+        "mean_positive_probability": 0.8303408944749668,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6666666666666667,
+        "accuracy": 0.5684210526315789,
+        "balanced_accuracy": 0.58125,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            35,
+            45
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.5625,
+        "predicted_positive_fraction": 0.5368421052631579,
+        "mean_positive_probability": 0.4806518848679077,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7044106545885906,
+      "mean_balanced_accuracy": 0.6435852070527337,
+      "seen_mean_auc": 0.7044106545885906,
+      "seen_forgetting": 0.003421492505122359
+    },
+    "training_loss_since_previous_evaluation": 0.3480738550424576,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 931,
+      "novel_batches": 0,
+      "novel_samples": 27,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 183,
+          "last_used": 20,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 812,
+          "last_used": 20,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 7,
+    "position": "episode_end",
+    "samples": 1011,
+    "batches": 21,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.742478162406988,
+        "accuracy": 0.9383561643835616,
+        "balanced_accuracy": 0.7059204141054675,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            12,
+            269
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9572953736654805,
+        "predicted_positive_fraction": 0.9417808219178082,
+        "mean_positive_probability": 0.8291770358735772,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6666666666666667,
+        "accuracy": 0.5578947368421052,
+        "balanced_accuracy": 0.575,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            36,
+            44
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.55,
+        "predicted_positive_fraction": 0.5263157894736842,
+        "mean_positive_probability": 0.47932227395940574,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7045724145368274,
+      "mean_balanced_accuracy": 0.6404602070527337,
+      "seen_mean_auc": 0.7045724145368274,
+      "seen_forgetting": 0.003259732556885553
+    },
+    "training_loss_since_previous_evaluation": 0.48345914483070374,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 947,
+      "novel_batches": 0,
+      "novel_samples": 28,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 183,
+          "last_used": 20,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 828,
+          "last_used": 21,
+          "protected_source": true
+        }
+      ]
+    }
+  },
+  {
+    "episode": 8,
+    "position": "episode_end",
+    "samples": 1155,
+    "batches": 24,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.7421546425105144,
+        "accuracy": 0.9315068493150684,
+        "balanced_accuracy": 0.7023616952442575,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            14,
+            267
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9501779359430605,
+        "predicted_positive_fraction": 0.934931506849315,
+        "mean_positive_probability": 0.8263570858956608,
+        "n": 292,
+        "prompt_counts": [
+          63,
+          229,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6666666666666667,
+        "accuracy": 0.5578947368421052,
+        "balanced_accuracy": 0.575,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            36,
+            44
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.55,
+        "predicted_positive_fraction": 0.5263157894736842,
+        "mean_positive_probability": 0.476159264604365,
+        "n": 95,
+        "prompt_counts": [
+          0,
+          95,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7044106545885906,
+      "mean_balanced_accuracy": 0.6386808476221287,
+      "seen_mean_auc": 0.7044106545885906,
+      "seen_forgetting": 0.003421492505122359
+    },
+    "training_loss_since_previous_evaluation": 0.4783184660805596,
+    "memory": {
+      "active": 2,
+      "capacity": 6,
+      "source_distance_threshold": 0.2676706612110138,
+      "reuse_samples": 1091,
+      "novel_batches": 0,
+      "novel_samples": 55,
+      "slots": [
+        {
+          "slot": 0,
+          "generation": 0,
+          "usage": 183,
+          "last_used": 20,
+          "protected_source": true
+        },
+        {
+          "slot": 1,
+          "generation": 0,
+          "usage": 972,
+          "last_used": 24,
+          "protected_source": true
+        }
+      ]
+    }
+  }
+]

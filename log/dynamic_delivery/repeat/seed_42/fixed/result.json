@@ -1,0 +1,79 @@
+{
+  "scenario": "repeat",
+  "method": "fixed",
+  "seed": 42,
+  "initial_auc": 0.7099840936050901,
+  "final_auc": 0.7095919605305727,
+  "auc_change": -0.00039213307451735346,
+  "final_balanced_accuracy": 0.6502911679068262,
+  "seen_forgetting": 0.0,
+  "prequential_auc": 0.830711032937378,
+  "time_average_eval_auc": 0.7088133784463856,
+  "allocations": 0,
+  "replacements": 0,
+  "capacity_deferrals": 0,
+  "memory": {
+    "active": 6,
+    "capacity": 6,
+    "source_distance_threshold": 0.07478516548871994,
+    "reuse_samples": 1076,
+    "novel_batches": 0,
+    "novel_samples": 54,
+    "slots": [
+      {
+        "slot": 0,
+        "generation": 0,
+        "usage": 433,
+        "last_used": 18,
+        "protected_source": true
+      },
+      {
+        "slot": 1,
+        "generation": 0,
+        "usage": 134,
+        "last_used": 17,
+        "protected_source": true
+      },
+      {
+        "slot": 2,
+        "generation": 0,
+        "usage": 70,
+        "last_used": 20,
+        "protected_source": true
+      },
+      {
+        "slot": 3,
+        "generation": 0,
+        "usage": 254,
+        "last_used": 20,
+        "protected_source": true
+      },
+      {
+        "slot": 4,
+        "generation": 0,
+        "usage": 219,
+        "last_used": 17,
+        "protected_source": true
+      },
+      {
+        "slot": 5,
+        "generation": 0,
+        "usage": 45,
+        "last_used": 17,
+        "protected_source": true
+      }
+    ]
+  },
+  "resources": {
+    "total_parameters": 635010,
+    "trainable_parameters": 768,
+    "full_checkpoint_bytes": 2711224,
+    "elapsed_seconds": 18.952768819000994,
+    "optimizer_tensor_bytes": 6168,
+    "active_prompt_parameters": 768,
+    "reserved_prompt_parameters": 768,
+    "memory_tensor_bytes": 75016,
+    "memory_file_bytes": 82065
+  },
+  "note": "Fixed protocol development experiment; no automatic performance claim"
+}

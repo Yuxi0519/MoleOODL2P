@@ -1,0 +1,31 @@
+{
+  "manifest": "data/continual_seed42/abrupt_prepared.json",
+  "output": "log/dynamic_delivery",
+  "device": "cuda:0",
+  "seeds": [42],
+  "scenarios": ["abrupt", "gradual", "repeat"],
+  "methods": ["frozen", "finetune", "fixed", "dynamic"],
+  "batch_size": 64,
+  "cpu_threads": 2,
+  "learning_rate": 0.001,
+  "finetune_learning_rate": 0.0001,
+  "teacher_weight": 0.1,
+  "anchor_weight": 1.0,
+  "gradient_clip": 1.0,
+  "eval_every_batches": 5,
+  "gradual_windows": 8,
+  "plots": true,
+  "memory": {
+    "initial_prompts": 2,
+    "capacity": 6,
+    "source_quantile": 0.95,
+    "minimum_distance": 0.001,
+    "distance_margin": 0.0,
+    "novel_fraction": 0.3,
+    "patience": 2,
+    "novel_buffer": 128,
+    "minimum_coherence": 0.8,
+    "allocation_cooldown": 5,
+    "replacement_grace": 3
+  }
+}

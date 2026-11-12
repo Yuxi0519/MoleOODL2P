@@ -1,0 +1,26 @@
+[
+  {
+    "episode": 1,
+    "environment": "0",
+    "is_revisit": false,
+    "before_auc": 0.7483015205435134,
+    "first_evaluation_auc": 0.7444192817858298,
+    "end_auc": 0.7415076027175672,
+    "drop_at_first_evaluation": 0.003882238757683565,
+    "recovery_from_first_evaluation": -0.002911679068262618,
+    "first_evaluation_after_samples": 320,
+    "note": "Measured at actual evaluation points, not an instantaneous switch response"
+  },
+  {
+    "episode": 2,
+    "environment": "2",
+    "is_revisit": false,
+    "before_auc": 0.6666666666666667,
+    "first_evaluation_auc": 0.6666666666666667,
+    "end_auc": 0.665,
+    "drop_at_first_evaluation": 0.0,
+    "recovery_from_first_evaluation": -0.0016666666666667052,
+    "first_evaluation_after_samples": 64,
+    "note": "Measured at actual evaluation points, not an instantaneous switch response"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "scenario": "abrupt",
+  "method": "frozen",
+  "seed": 42,
+  "initial_auc": 0.7099840936050901,
+  "final_auc": 0.7099840936050901,
+  "auc_change": 0.0,
+  "final_balanced_accuracy": 0.6538498867680362,
+  "seen_forgetting": 0.0,
+  "prequential_auc": 0.8308074115124209,
+  "time_average_eval_auc": 0.7099840936050901,
+  "allocations": 0,
+  "replacements": 0,
+  "capacity_deferrals": 0,
+  "memory": null,
+  "resources": {
+    "total_parameters": 634498,
+    "trainable_parameters": 0,
+    "full_checkpoint_bytes": 2616454,
+    "elapsed_seconds": 14.176034870999501,
+    "optimizer_tensor_bytes": 0
+  },
+  "note": "Fixed protocol development experiment; no automatic performance claim"
+}

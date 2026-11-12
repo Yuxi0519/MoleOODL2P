@@ -1,0 +1,459 @@
+[
+  {
+    "episode": 0,
+    "position": "initial",
+    "samples": 0,
+    "batches": 0,
+    "seen_environments": [],
+    "metrics": {
+      "0": {
+        "auc": 0.7483015205435134,
+        "accuracy": 0.9417808219178082,
+        "balanced_accuracy": 0.7076997735360725,
+        "confusion_matrix": [
+          [
+            5,
+            6
+          ],
+          [
+            11,
+            270
+          ]
+        ],
+        "negative_recall": 0.45454545454545453,
+        "positive_recall": 0.9608540925266904,
+        "predicted_positive_fraction": 0.9452054794520548,
+        "mean_positive_probability": 0.8379167118301131,
+        "n": 292,
+        "prompt_counts": [
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6716666666666667,
+        "accuracy": 0.6,
+        "balanced_accuracy": 0.6,
+        "confusion_matrix": [
+          [
+            9,
+            6
+          ],
+          [
+            32,
+            48
+          ]
+        ],
+        "negative_recall": 0.6,
+        "positive_recall": 0.6,
+        "predicted_positive_fraction": 0.5684210526315789,
+        "mean_positive_probability": 0.49302558380693784,
+        "n": 95,
+        "prompt_counts": [
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.7099840936050901,
+      "mean_balanced_accuracy": 0.6538498867680362,
+      "seen_mean_auc": null,
+      "seen_forgetting": null
+    },
+    "training_loss_since_previous_evaluation": null,
+    "memory": null
+  },
+  {
+    "episode": 1,
+    "position": "interval",
+    "samples": 320,
+    "batches": 5,
+    "seen_environments": [
+      "0"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.658686509220317,
+        "accuracy": 0.9143835616438356,
+        "balanced_accuracy": 0.5624393400194112,
+        "confusion_matrix": [
+          [
+            2,
+            9
+          ],
+          [
+            16,
+            265
+          ]
+        ],
+        "negative_recall": 0.18181818181818182,
+        "positive_recall": 0.9430604982206405,
+        "predicted_positive_fraction": 0.9383561643835616,
+        "mean_positive_probability": 0.7910802990376745,
+        "n": 292,
+        "prompt_counts": [
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6316666666666666,
+        "accuracy": 0.4631578947368421,
+        "balanced_accuracy": 0.5729166666666666,
+        "confusion_matrix": [
+          [
+            11,
+            4
+          ],
+          [
+            47,
+            33
+          ]
+        ],
+        "negative_recall": 0.7333333333333333,
+        "positive_recall": 0.4125,
+        "predicted_positive_fraction": 0.3894736842105263,
+        "mean_positive_probability": 0.4079278521383745,
+        "n": 95,
+        "prompt_counts": [
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.6451765879434919,
+      "mean_balanced_accuracy": 0.5676780033430389,
+      "seen_mean_auc": 0.658686509220317,
+      "seen_forgetting": 0.0
+    },
+    "training_loss_since_previous_evaluation": 0.6266206443309784,
+    "memory": null
+  },
+  {
+    "episode": 1,
+    "position": "episode_end",
+    "samples": 436,
+    "batches": 7,
+    "seen_environments": [
+      "0"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.611129084438693,
+        "accuracy": 0.9143835616438356,
+        "balanced_accuracy": 0.5624393400194112,
+        "confusion_matrix": [
+          [
+            2,
+            9
+          ],
+          [
+            16,
+            265
+          ]
+        ],
+        "negative_recall": 0.18181818181818182,
+        "positive_recall": 0.9430604982206405,
+        "predicted_positive_fraction": 0.9383561643835616,
+        "mean_positive_probability": 0.7798860379915735,
+        "n": 292,
+        "prompt_counts": [
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6308333333333334,
+        "accuracy": 0.4631578947368421,
+        "balanced_accuracy": 0.6000000000000001,
+        "confusion_matrix": [
+          [
+            12,
+            3
+          ],
+          [
+            48,
+            32
+          ]
+        ],
+        "negative_recall": 0.8,
+        "positive_recall": 0.4,
+        "predicted_positive_fraction": 0.3684210526315789,
+        "mean_positive_probability": 0.4166561257209028,
+        "n": 95,
+        "prompt_counts": [
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.6209812088860132,
+      "mean_balanced_accuracy": 0.5812196700097056,
+      "seen_mean_auc": 0.611129084438693,
+      "seen_forgetting": 0.04755742478162406
+    },
+    "training_loss_since_previous_evaluation": 0.5054446294389922,
+    "memory": null
+  },
+  {
+    "episode": 2,
+    "position": "interval",
+    "samples": 577,
+    "batches": 10,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.5286315108379165,
+        "accuracy": 0.9315068493150684,
+        "balanced_accuracy": 0.5713361371724361,
+        "confusion_matrix": [
+          [
+            2,
+            9
+          ],
+          [
+            11,
+            270
+          ]
+        ],
+        "negative_recall": 0.18181818181818182,
+        "positive_recall": 0.9608540925266904,
+        "predicted_positive_fraction": 0.9554794520547946,
+        "mean_positive_probability": 0.8506058326042066,
+        "n": 292,
+        "prompt_counts": [
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6275,
+        "accuracy": 0.49473684210526314,
+        "balanced_accuracy": 0.5916666666666667,
+        "confusion_matrix": [
+          [
+            11,
+            4
+          ],
+          [
+            44,
+            36
+          ]
+        ],
+        "negative_recall": 0.7333333333333333,
+        "positive_recall": 0.45,
+        "predicted_positive_fraction": 0.42105263157894735,
+        "mean_positive_probability": 0.44323356474663966,
+        "n": 95,
+        "prompt_counts": [
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.5780657554189582,
+      "mean_balanced_accuracy": 0.5815014019195515,
+      "seen_mean_auc": 0.5780657554189582,
+      "seen_forgetting": 0.06502749919120027
+    },
+    "training_loss_since_previous_evaluation": 0.8935822747277875,
+    "memory": null
+  },
+  {
+    "episode": 3,
+    "position": "interval",
+    "samples": 897,
+    "batches": 15,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.5638951795535425,
+        "accuracy": 0.9178082191780822,
+        "balanced_accuracy": 0.5642186994500161,
+        "confusion_matrix": [
+          [
+            2,
+            9
+          ],
+          [
+            15,
+            266
+          ]
+        ],
+        "negative_recall": 0.18181818181818182,
+        "positive_recall": 0.9466192170818505,
+        "predicted_positive_fraction": 0.9417808219178082,
+        "mean_positive_probability": 0.8077488031927241,
+        "n": 292,
+        "prompt_counts": [
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6733333333333333,
+        "accuracy": 0.4421052631578947,
+        "balanced_accuracy": 0.5875,
+        "confusion_matrix": [
+          [
+            12,
+            3
+          ],
+          [
+            50,
+            30
+          ]
+        ],
+        "negative_recall": 0.8,
+        "positive_recall": 0.375,
+        "predicted_positive_fraction": 0.3473684210526316,
+        "mean_positive_probability": 0.39809794433362855,
+        "n": 95,
+        "prompt_counts": [
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.6186142564434379,
+      "mean_balanced_accuracy": 0.5758593497250081,
+      "seen_mean_auc": 0.6186142564434379,
+      "seen_forgetting": 0.04739566483338725
+    },
+    "training_loss_since_previous_evaluation": 0.5264258563518525,
+    "memory": null
+  },
+  {
+    "episode": 3,
+    "position": "episode_end",
+    "samples": 1014,
+    "batches": 17,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.5797476544807505,
+        "accuracy": 0.9178082191780822,
+        "balanced_accuracy": 0.5642186994500161,
+        "confusion_matrix": [
+          [
+            2,
+            9
+          ],
+          [
+            15,
+            266
+          ]
+        ],
+        "negative_recall": 0.18181818181818182,
+        "positive_recall": 0.9466192170818505,
+        "predicted_positive_fraction": 0.9417808219178082,
+        "mean_positive_probability": 0.7927300742482895,
+        "n": 292,
+        "prompt_counts": [
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6816666666666666,
+        "accuracy": 0.45263157894736844,
+        "balanced_accuracy": 0.59375,
+        "confusion_matrix": [
+          [
+            12,
+            3
+          ],
+          [
+            49,
+            31
+          ]
+        ],
+        "negative_recall": 0.8,
+        "positive_recall": 0.3875,
+        "predicted_positive_fraction": 0.35789473684210527,
+        "mean_positive_probability": 0.3837154760857199,
+        "n": 95,
+        "prompt_counts": [
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.6307071605737086,
+      "mean_balanced_accuracy": 0.578984349725008,
+      "seen_mean_auc": 0.6307071605737086,
+      "seen_forgetting": 0.03946942736978326
+    },
+    "training_loss_since_previous_evaluation": 0.7354082556871268,
+    "memory": null
+  },
+  {
+    "episode": 4,
+    "position": "interval",
+    "samples": 1155,
+    "batches": 20,
+    "seen_environments": [
+      "0",
+      "2"
+    ],
+    "metrics": {
+      "0": {
+        "auc": 0.5406017470074409,
+        "accuracy": 0.9452054794520548,
+        "balanced_accuracy": 0.578453574894856,
+        "confusion_matrix": [
+          [
+            2,
+            9
+          ],
+          [
+            7,
+            274
+          ]
+        ],
+        "negative_recall": 0.18181818181818182,
+        "positive_recall": 0.9750889679715302,
+        "predicted_positive_fraction": 0.9691780821917808,
+        "mean_positive_probability": 0.8802173349891521,
+        "n": 292,
+        "prompt_counts": [
+          0
+        ]
+      },
+      "2": {
+        "auc": 0.6691666666666667,
+        "accuracy": 0.4842105263157895,
+        "balanced_accuracy": 0.5854166666666667,
+        "confusion_matrix": [
+          [
+            11,
+            4
+          ],
+          [
+            45,
+            35
+          ]
+        ],
+        "negative_recall": 0.7333333333333333,
+        "positive_recall": 0.4375,
+        "predicted_positive_fraction": 0.4105263157894737,
+        "mean_positive_probability": 0.4165249195087726,
+        "n": 95,
+        "prompt_counts": [
+          0
+        ]
+      }
+    },
+    "summary": {
+      "mean_auc": 0.6048842068370538,
+      "mean_balanced_accuracy": 0.5819351207807614,
+      "seen_mean_auc": 0.6048842068370538,
+      "seen_forgetting": 0.06529238110643804
+    },
+    "training_loss_since_previous_evaluation": 0.8816234701914145,
+    "memory": null
+  }
+]

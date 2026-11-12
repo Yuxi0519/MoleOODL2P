@@ -1,0 +1,13 @@
+{
+  "class_weights": [
+    7.558823585510254,
+    0.5354166626930237
+  ],
+  "weight_fit_split": "source_only",
+  "learning_rate": 0.001,
+  "teacher_weight": 0.0,
+  "anchor_weight": 0.0,
+  "property_head_frozen": true,
+  "one_pass": true,
+  "optimizer_steps_per_batch": 0
+}

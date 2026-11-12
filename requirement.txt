@@ -1,7 +1,8 @@
 torch>=2.0.0
 torch-geometric>=2.3.0
-torch-scatter
-torch-sparse
 rdkit
+numpy
 scikit-learn
 tqdm
+# Optional plots; tables/JSON are still produced without it.
+matplotlib

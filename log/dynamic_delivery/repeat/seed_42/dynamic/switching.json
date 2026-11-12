@@ -1,0 +1,50 @@
+[
+  {
+    "episode": 1,
+    "environment": "0",
+    "is_revisit": false,
+    "before_auc": 0.7483015205435134,
+    "first_evaluation_auc": 0.7453898414752508,
+    "end_auc": 0.7450663215787771,
+    "drop_at_first_evaluation": 0.002911679068262618,
+    "recovery_from_first_evaluation": -0.0003235198964737229,
+    "first_evaluation_after_samples": 320,
+    "note": "Measured at actual evaluation points, not an instantaneous switch response"
+  },
+  {
+    "episode": 2,
+    "environment": "2",
+    "is_revisit": false,
+    "before_auc": 0.67,
+    "first_evaluation_auc": 0.6666666666666667,
+    "end_auc": 0.6666666666666667,
+    "drop_at_first_evaluation": 0.0033333333333332993,
+    "recovery_from_first_evaluation": 0.0,
+    "first_evaluation_after_samples": 141,
+    "note": "Measured at actual evaluation points, not an instantaneous switch response"
+  },
+  {
+    "episode": 3,
+    "environment": "0",
+    "is_revisit": true,
+    "before_auc": 0.7440957618893562,
+    "first_evaluation_auc": 0.7440957618893562,
+    "end_auc": 0.7421546425105143,
+    "drop_at_first_evaluation": 0.0,
+    "recovery_from_first_evaluation": -0.0019411193788418935,
+    "first_evaluation_after_samples": 320,
+    "note": "Measured at actual evaluation points, not an instantaneous switch response"
+  },
+  {
+    "episode": 4,
+    "environment": "2",
+    "is_revisit": true,
+    "before_auc": 0.6666666666666667,
+    "first_evaluation_auc": 0.6658333333333334,
+    "end_auc": 0.6658333333333334,
+    "drop_at_first_evaluation": 0.0008333333333333526,
+    "recovery_from_first_evaluation": 0.0,
+    "first_evaluation_after_samples": 141,
+    "note": "Measured at actual evaluation points, not an instantaneous switch response"
+  }
+]

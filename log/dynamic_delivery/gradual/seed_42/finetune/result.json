@@ -1,0 +1,24 @@
+{
+  "scenario": "gradual",
+  "method": "finetune",
+  "seed": 42,
+  "initial_auc": 0.7099840936050901,
+  "final_auc": 0.564448802976383,
+  "auc_change": -0.14553529062870707,
+  "final_balanced_accuracy": 0.5977121077321255,
+  "seen_forgetting": 0.08597312088860132,
+  "prequential_auc": 0.7708599378358191,
+  "time_average_eval_auc": 0.5596733551954354,
+  "allocations": 0,
+  "replacements": 0,
+  "capacity_deferrals": 0,
+  "memory": null,
+  "resources": {
+    "total_parameters": 634498,
+    "trainable_parameters": 601218,
+    "full_checkpoint_bytes": 7496422,
+    "elapsed_seconds": 25.79963387999942,
+    "optimizer_tensor_bytes": 4810064
+  },
+  "note": "Fixed protocol development experiment; no automatic performance claim"
+}

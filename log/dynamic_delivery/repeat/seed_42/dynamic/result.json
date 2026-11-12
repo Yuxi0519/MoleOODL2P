@@ -1,0 +1,51 @@
+{
+  "scenario": "repeat",
+  "method": "dynamic",
+  "seed": 42,
+  "initial_auc": 0.7099840936050901,
+  "final_auc": 0.703832227973687,
+  "auc_change": -0.0061518656314030196,
+  "final_balanced_accuracy": 0.6315411679068262,
+  "seen_forgetting": 0.0021960260972717083,
+  "prequential_auc": 0.8292051177023347,
+  "time_average_eval_auc": 0.7057750098853303,
+  "allocations": 0,
+  "replacements": 0,
+  "capacity_deferrals": 0,
+  "memory": {
+    "active": 2,
+    "capacity": 6,
+    "source_distance_threshold": 0.2676706612110138,
+    "reuse_samples": 1091,
+    "novel_batches": 0,
+    "novel_samples": 55,
+    "slots": [
+      {
+        "slot": 0,
+        "generation": 0,
+        "usage": 183,
+        "last_used": 17,
+        "protected_source": true
+      },
+      {
+        "slot": 1,
+        "generation": 0,
+        "usage": 972,
+        "last_used": 20,
+        "protected_source": true
+      }
+    ]
+  },
+  "resources": {
+    "total_parameters": 635010,
+    "trainable_parameters": 768,
+    "full_checkpoint_bytes": 2702608,
+    "elapsed_seconds": 18.905462789000012,
+    "optimizer_tensor_bytes": 2056,
+    "active_prompt_parameters": 256,
+    "reserved_prompt_parameters": 768,
+    "memory_tensor_bytes": 75016,
+    "memory_file_bytes": 82065
+  },
+  "note": "Fixed protocol development experiment; no automatic performance claim"
+}
